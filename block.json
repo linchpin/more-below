@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "linchpin/more-below",
+  "version": "0.1.0",
+  "title": "More Below Block",
+  "category": "design",
+  "icon": "arrow-down",
+  "description": "This plugin displays more text along with a supporting icon&#x2F;svg. It is not a replacement for read more",
+  "supports": {
+	  "html": false
+  },
+  "attributes": {
+	"title":  {
+	  "source": "html",
+	  "selector": "h6",
+	  "type": "string"
+	},
+	"mediaId" : {
+	  "type": "number",
+	  "default": 0
+	},
+	"mediaURL" : {
+	  "type": "string",
+	  "default": ""
+	},
+	"anchor": {
+	  "type": "string"
+	},
+	"iconColor": {
+	  "type": "object"
+	},
+	"textColor": {
+	  "type": "object"
+	},
+	"content":  {
+	  "type": "string"
+	},
+	"showContent": {
+	  "type": "boolean"
+	}
+  },
+  "textdomain": "more-below",
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "style": "file:./build/style-index.css"
+}

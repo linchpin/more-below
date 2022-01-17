@@ -1,0 +1,12 @@
+{
+    "name": "Linchpin Adspiration",
+    "short_name": "Adspiration",
+    "description": "Elite Data integration for RC Hagen WooCommerce Websites",
+    "display": "standalone",
+    "start_url": "/?utm_source=app",
+    "background_color": "#000000",
+    "orientation": "any",
+    "theme_color": "#3fc1d0",
+    "icons": [
+    ]
+}
